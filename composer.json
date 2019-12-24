@@ -1,0 +1,18 @@
+{
+    "name": "slacker775/tesla-api",
+    "description": "Tesla API library for PHP",
+    "type": "library",
+    "require": {
+        "jane-php/open-api-runtime": "^5.0"
+    },
+    "require-dev": {
+        "jane-php/open-api": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Hollis",
+            "email": "dhollis@davehollis.com"
+        }
+    ]
+}
