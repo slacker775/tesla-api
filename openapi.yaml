@@ -247,6 +247,12 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/VehicleDataResponse'
+        408:
+          description: Timeout
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
   /api/1/vehicles/{vehicle_id}/wake_up:
     post:
       tags:
@@ -1273,6 +1279,15 @@ paths:
       x-codegen-request-body-name: body
 components:
   schemas:
+    ErrorResponse:
+      type: object
+      properties:
+        response:
+          type: string
+        error:
+          type: string
+        error_description:
+          type: string
     CreateAccessTokenRequest:
       title: Get an Access Token request
       type: object

@@ -1,26 +1,25 @@
 {
-    "name": "slacker775/tesla-api",
-    "description": "Tesla API library for PHP",
-    "type": "library",
-    "require": {
-        "jane-php/open-api-runtime": "^5.0"
-    },
-    "require-dev": {
-        "jane-php/open-api": "^5.0",
-        "symfony/var-dumper": "^5.0",
-        "symfony/http-client": "^5.0",
-        "zendframework/zend-diactoros": "^2.2"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "David Hollis",
-            "email": "dhollis@davehollis.com"
-        }
-    ],
-    "autoload" : {
-        "psr-4" : {
-            "Tesla\\": "src/"
-        }
-    }
+	"name" : "slacker775/tesla-api",
+	"description" : "Tesla API library for PHP",
+	"type" : "library",
+	"require" : {
+		"jane-php/open-api-runtime" : "^5.0"
+	},
+	"require-dev" : {
+		"jane-php/open-api" : "^5.0",
+		"symfony/var-dumper" : "^5.0",
+		"symfony/http-client" : "^5.0",
+		"zendframework/zend-diactoros" : "^2.2"
+	},
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "David Hollis",
+			"email" : "dhollis@davehollis.com"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"Tesla\\" : "src/"
+		}
+	}
 }
