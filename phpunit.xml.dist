@@ -13,7 +13,7 @@
     </php>
 
     <testsuites>
-        <testsuite name="Test PHP API Test Suite">
+        <testsuite name="Tesla PHP API Test Suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>

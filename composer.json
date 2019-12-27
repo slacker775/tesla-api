@@ -21,6 +21,7 @@
 	],
 	"autoload" : {
 		"psr-4" : {
+                        "Tesla\\Api\\": "generated/",
 			"Tesla\\" : "src/"
 		}
 	}

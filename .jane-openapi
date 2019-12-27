@@ -3,6 +3,6 @@
 return [
   'openapi-file' => __DIR__ . '/openapi.yaml',
   'namespace' => 'Tesla\Api',
-  'directory' => __DIR__ . '/src/Api',
+  'directory' => __DIR__ . '/generated',
   'client' => 'psr18',
 ];

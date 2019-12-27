@@ -4,13 +4,13 @@ namespace Tesla\Tests;
 use PHPUnit\Framework\TestCase;
 use Tesla\Client;
 use Tesla\Api\Model\GetVehiclesResponse;
+use Tesla\ClientFactory;
 
 class ReadingTest extends TestCase
 {
     public function testItWorksOnGetVehiclesWithCorrectToken()
     {
-        $httpClient = Client::createHttpClient($_SERVER['TESLA_TOKEN']);        
-        $client = Client::create($httpClient);
+        $client = ClientFactory::create($_SERVER['TESLA_TOKEN']);
         
         $response = $client->getVehicles();
         

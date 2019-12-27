@@ -2,6 +2,7 @@ build
 composer.lock
 vendor
 phpunit.xml
+.php_cs.cache
 .phpunit-watcher.yml
 .buildpath
 .settings

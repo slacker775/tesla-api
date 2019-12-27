@@ -13,6 +13,10 @@ use Http\Client\Common\Plugin\HistoryPlugin;
 use Http\Client\Common\Plugin\Journal;
 use Http\Message\Authentication\Bearer;
 
+/**
+ * @deprecated
+ *
+ */
 class Client extends BaseClient
 {
 
