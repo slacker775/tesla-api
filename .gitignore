@@ -7,3 +7,4 @@ phpunit.xml
 .buildpath
 .settings
 .project
+generated_ci
