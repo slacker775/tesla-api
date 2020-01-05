@@ -1,8 +1,15 @@
 <?php
 
+$directory = __DIR__ . '/generated';
+
+if(!empty($_SERVER['CI_TEST'])) {
+  $directory == __DIR__ . '/generated_ci/';
+}
+
 return [
   'openapi-file' => __DIR__ . '/openapi.yaml',
   'namespace' => 'Tesla\Api',
-  'directory' => __DIR__ . '/src/Api',
+  'directory' => $directory,
   'client' => 'psr18',
+  'reference' => false,
 ];
